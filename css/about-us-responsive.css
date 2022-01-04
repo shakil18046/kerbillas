@@ -1,0 +1,188 @@
+@media screen and (max-width: 1200px) {
+     /* ------about-us-hero-area-start----- */
+
+     /* ------about-who-we-area-start----- */
+    .about-who-we-main-image {
+        width: 85%;
+}
+.about-who-we-icon-two {
+    right: 3.6rem;
+}
+@media screen and (max-width: 992px)  {
+     /* ------about-us-hero-area-start----- */
+
+     /* ------about-who-we-area-start----- */
+    .about-who-we-image-wrapper{
+        margin: auto;
+    }
+    .about-who-we {
+        padding: 10rem 0 6rem 0;
+    }
+    .about-images-wrapper::after {
+      top: 72%;
+      left: 0%;
+      width: 85%;
+      height: 85%;
+  }
+  /* ------our-team-start------ */
+  .team-member-content {
+    padding: 1.5rem;
+    transform: translateY(-5.8rem);
+    margin: 0 1rem;
+  }
+  .team-member-name {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.team-member-position {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+/* ------work-process------ */
+.work-process-content-paragraph {
+  width: 70%;
+}
+}
+@media screen and (max-width: 768px) {
+  /* ------about-us-hero-area-start----- */
+  .about-us-hero-content {
+    font-size: 3.5rem;
+  }
+  /* ------about-who-we-area-start----- */
+  .common-about-content {
+      font-size: 1.6rem;
+  }
+  .about-who-we-btn {
+      margin-top: 3rem;
+  }
+  /* --------our-vision-start-------- */
+  .our-vision-content-paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 95%;
+    padding: 0rem 0;
+}
+.vision-icon-box-wrapper{
+  width: 230px;
+  transform: translate(1.5rem, -3rem);
+}
+.vision-icon-box-content {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.vision-main-image {
+  width: 90%;
+}
+/* ------our-team-start------ */
+.team-member-name {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.team-member-position {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.team-member-details {
+  font-size: 1.4rem;
+}
+.team-social-media-item a {
+  width: 2rem;
+}
+/* ------work-process------ */
+.work-process-content-paragraph {
+  width: 85%;
+}
+.common-about-content {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  width: 90%;
+}
+}
+@media screen and (max-width: 767px) {
+    /* ------about-us-hero-area-start----- */
+    .about-us-hero-area {
+        height: 40vh;
+      }
+      /* ------about-who-we-area-start----- */
+    .about-who-we-content-heading {
+        text-align: center!important;
+    }
+    .about-who-we-image {
+        padding-bottom: 10rem;
+      }
+      .about-images-wrapper {
+          text-align: center;
+      }
+      .about-who-we-icon-one {
+        width: 10rem;
+        position: absolute;
+        top: -2rem;
+        left: 0rem;
+    }
+    .about-who-we-icon-two {
+        right: 0rem;
+    }
+    .common-about-content {
+    text-align: center;
+    width: 100%;
+    }
+    .about-who-we-btn {
+        font-size: 1.4rem;
+        padding: 1.2rem 3rem;
+    }
+    .about-us-btn {
+        text-align: center;
+    }
+    .about-who-we {
+        padding: 15rem 1rem 6rem 1rem;
+    }
+    /* --------our-vision-end-------- */
+    .vision-second-column {
+      padding-top: 10rem;
+    }
+    .our-vision-content-paragraph {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      width: 100%;
+      text-align: center;
+  }
+  .our-vision-btn-wrapper {
+    text-align: center;
+    
+  }
+  .vision-image-wrapper {
+    text-align: center;
+}
+.vision-icon-box-wrapper {
+  transform: translate(7.5rem, -3rem);
+}
+.vision-icon-box-content {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+}
+
+@media screen and (max-width: 576px) {
+  /* ------about-us-hero-area-start----- */
+  .about-us-hero-content {
+    font-size: 3rem;
+  }
+/* ------about-who-we-area-start----- */
+  .about-who-we-image {
+    padding-bottom: 10rem;
+  }
+  .about-who-we-content-heading {
+      text-align: center!important;
+  }
+  /* ------work-process------ */
+  .work-process-content {
+    padding: 0 2rem 5rem 2rem;
+}
+.common-about-content {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  width: 90%;
+}
+}

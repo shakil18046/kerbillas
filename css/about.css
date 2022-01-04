@@ -1,0 +1,243 @@
+/* ------about-us-hero-area-start----- */
+.about-us-hero-area {
+  background: url(../img/about-hero.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+}
+.about-us-hero-content {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+/* ------about-us-hero-area-end----- */
+
+/* ------about-who-we-area-start----- */
+.about-who-we {
+  padding: 20rem 0 8rem 0;
+}
+.about-who-we-image {
+  display: flex;
+  justify-content: center;
+}
+.about-who-we-main-image {
+  width: 100%;
+  border-radius: 7rem;
+  z-index: 10;
+  position: inherit;
+}
+.about-images-wrapper {
+  position: relative;
+}
+.about-who-we-icon-one {
+  width: 10rem;
+  position: absolute;
+  top: -1.9rem;
+  left: -2.8rem;
+  z-index: 12;
+}
+.about-who-we-icon-two {
+  width: 100px;
+  position: absolute;
+  bottom: -3.4rem;
+  right: -3.4rem;
+  z-index: 12;
+}
+.common-about-content {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #555555;
+  width: 85%;
+}
+.about-who-we-btn {
+  border: none;
+  background: linear-gradient(279.46deg, #4b0796 -27.72%, #ed3ab2 98.3%);
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 1.4rem 3.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.about-who-we-btn svg {
+  width: 1.3rem;
+  fill: #ffffff;
+}
+.about-who-we-btn:hover {
+  background: linear-gradient(279.46deg, #ed3ab2 -27.72%, #4b0796 98.3%);
+}
+.about-dot {
+  position: absolute;
+  width: 30%;
+  left: -10%;
+  bottom: -10%;
+}
+/* --------our-vision-start-------- */
+.our-vision {
+  padding: 8rem 0;
+}
+.our-vision-content-paragraph {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #555555;
+  width: 85%;
+  padding: 2rem 0;
+}
+.vision-image-wrapper {
+  position: relative;
+}
+.vision-main-image {
+  width: 70%;
+  border-radius: 7rem 22.8rem 22.8rem 7rem;
+  position: inherit;
+  z-index: 10;
+}
+.vision-icon-box-wrapper {
+  background: linear-gradient(180deg, #9247e6 0%, #4b0796 100%);
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1rem;
+  border-radius: 1rem;
+  border: 3px solid #ae6bf9;
+  box-shadow: 0px 1.5rem 2.5rem rgba(75, 7, 150, 0.2);
+  transform: translate(3.5rem, -2rem);
+  position: relative;
+  z-index: 12;
+}
+.vision-icon-box-wrapper img {
+  width: 3rem;
+  height: 7rem;
+}
+.vision-icon-box-content {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ffffff;
+  padding-left: 1rem;
+  line-height: 2.4rem;
+}
+.vision-dot {
+  position: absolute;
+  width: 150px;
+  bottom: -20%;
+  left: 37%;
+}
+.our-vision-content-wrapper,
+.vision-second-column {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* --------our-vision-end-------- */
+
+/* ------our-team-start------ */
+.our-team {
+  padding: 10rem 1.5rem 6rem 1.5rem;
+  background: url(../img/team-dot.png) no-repeat;
+  background-position: bottom left;
+}
+.team-heading-paragraph {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+}
+.team-member-img img {
+  border-radius: 2rem;
+}
+.team-member-content {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0rem 1rem 2.5rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.4rem);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-8rem);
+  margin: 0 2rem;
+}
+.team-member-name {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #952dde;
+  font-weight: 600;
+}
+.team-member-position {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #555555;
+}
+.team-member-details {
+  font-size: 1.6rem;
+}
+/* .team-social-media-item a {
+  font-size: 1.6rem;
+} */
+.team-social-media-item svg {
+  width: 2.2rem;
+}
+.team-social-media-item:not(:last-child) {
+  margin-right: 0.7rem;
+}
+.inner-team-member-content {
+  transform: translateY(12.7rem);
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+.team-member-wrapper:hover .inner-team-member-content {
+  transform: translateY(0rem) !important;
+  position: inherit !important;
+  color: #ffffff;
+}
+.team-member-wrapper:hover .team-member-content {
+  background-color: #952ddec2;
+  backdrop-filter: blur(2.5rem);
+  transform: translateY(-15rem);
+}
+.team-member-wrapper:hover .team-member-name,
+.team-member-wrapper:hover .team-member-position {
+  color: #ffffff;
+}
+.team-social-media-item a {
+  fill: #ffffff;
+}
+/* ------about-who-we-area-end----- */
+
+/* ------work-process------ */
+.dot-bg {
+  background: url(../img/video-dot.png) repeat;
+  background-position: bottom center;
+}
+.work-process {
+  padding: 6rem 0;
+}
+.work-process-content {
+  padding-bottom: 5rem;
+}
+.work-process-content-paragraph {
+  width: 46%;
+}
+.work-process-content-heading {
+  text-align: center;
+}
+.work-process-content-paragraph {
+}
+.work-process {
+  padding: 6rem 0;
+}
+.video-wrapper {
+  width: 80%;
+  margin: auto;
+  border-radius: 1.5rem;
+}
+.video {
+  border-radius: 15px;
+}

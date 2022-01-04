@@ -1,0 +1,86 @@
+@media screen and (max-width: 992px) {
+  .Requirement-item:after {
+    top: 0.6rem;
+  }
+  .bg-case-studies-img {
+    position: absolute;
+    width: 20rem;
+    z-index: 5;
+    top: -7%;
+    left: 0;
+  }
+  .bg-case-studies-img-two {
+    width: 15rem;
+    position: absolute;
+    z-index: 5;
+    bottom: 15%;
+    right: -1%;
+  }
+  .approach-bg-image-one {
+    position: absolute;
+    width: 15rem;
+    z-index: 5;
+    bottom: 30%;
+    left: 0%;
+  }
+  .mockup {
+    width: 50rem;
+    transform: translateY(-12rem);
+  }
+}
+@media screen and (max-width: 768px) {
+  .requirments-heading,
+  .case-studies-heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+  .approach-paragraph,
+  .case-studies-paragraph {
+    font-size: 1.6rem;
+  }
+  .Requirement-item:after {
+    top: 0.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .requirments-heading,
+  .case-studies-heading {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+  .approach-paragraph,
+  .case-studies-paragraph {
+    font-size: 1.4rem;
+  }
+  .Requirement-item:after {
+    top: 0.5rem;
+  }
+
+  .case-studies,
+  .our-approach {
+    padding: 5rem 6rem 9rem 6rem;
+  }
+  .mockup {
+    width: 30rem;
+    transform: translateY(-12rem);
+  }
+  .bg-case-studies-img {
+    position: absolute;
+    width: 17rem;
+    z-index: 5;
+    top: -4%;
+    left: 0;
+  }
+  .prev-btn {
+    padding: 1.3rem 1.3rem;
+    font-size: 1.4rem;
+  }
+  .prev-btn {
+    padding: 1.3rem 1.3rem;
+    font-size: 1.4rem;
+  }
+  .Requirement-item {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}

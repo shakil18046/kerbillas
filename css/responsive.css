@@ -1,0 +1,606 @@
+/* ------responsive-start-------- */
+@media screen and (max-width: 1380px) {
+  .circle-3-img img {
+    width: 17rem;
+    transform: translate(15rem, 30rem);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav-item:hover::after {
+    width: 0% !important;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent !important;
+    font-size: 1.75rem;
+  }
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+  }
+
+  /* ---hero-area--- */
+  .hero-area {
+    height: 70vh;
+    padding: 4rem 0;
+  }
+  .hero-wrapper {
+    background-size: 60%;
+  }
+  /* ----- work-us-area-start------ */
+  .work-detail-card {
+    margin-right: 2rem;
+    padding: 4rem 2em;
+  }
+  .circle-img img {
+    width: 13rem;
+    transform: translate(7.3rem, -6rem);
+  }
+  .circle-2-img img {
+    width: 4rem;
+    transform: translate(8.3rem, 46rem);
+    z-index: -1;
+    position: absolute;
+  }
+  .circle-3-img img {
+    width: 14rem;
+    transform: translate(8rem, 32rem);
+  }
+
+  /* ----- why-choose-us-area-start------ */
+  .icon {
+    width: 22rem;
+  }
+  .icon-box-content-paragraph {
+    width: 89%;
+  }
+  /* ------faq-area------ */
+  .accordion-button::after {
+    left: -74px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-card:hover .portfolio-btn {
+    transform: translate(5rem, 22rem);
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-content-heading {
+    font-size: 4.2rem;
+  }
+  .hero-content-paragraph {
+    width: 80%;
+  }
+  /* ----- work-us-area-start------ */
+  .work {
+    padding: 3rem 0rem 6rem 0px;
+    overflow: hidden;
+  }
+  .work-detail-card h3 {
+    font-size: 1.8rem;
+  }
+  .work-detail-card {
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .work-detail-card p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  /* ----Why choose us-----start---- */
+  .why-choose-us {
+    padding: 20rem 0 6rem 0;
+  }
+  .icon {
+    width: 32rem;
+  }
+  .icon-box-content {
+    padding-left: 0;
+  }
+  /* ----- our-work-us-area-start------ */
+  .portfolio-content h4 {
+    font-size: 1.6rem;
+  }
+  .portfolio-heading-content {
+    padding-bottom: 10rem;
+  }
+  .our-work {
+    padding: 15rem 0 6rem 0;
+  }
+  .work-circle-one-img {
+    width: 18rem;
+    top: 23.5rem;
+    right: 0rem;
+  }
+  .work-circle-two-img {
+    width: 10rem;
+    bottom: -2rem;
+    left: -0.5rem;
+  }
+  .portfolio-content {
+    padding: 13px 2.8rem 13px 2.8rem;
+  }
+  .portfolio-card {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+
+  /* ------faq-area------ */
+  .accordion-button::after {
+    left: -76px;
+  }
+  /* ------contact-area-start------ */
+  .contact-form {
+    width: 88%;
+  }
+  .contact-round-one {
+    left: -4px;
+  }
+  .contact-round-two {
+    right: 35px;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* ------hero-area------- */
+  .navbar-nav {
+    background-color: #972edf;
+  }
+  .nav-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .nav-item {
+    padding: 1rem 0rem 1rem 3rem;
+  }
+  .nav-item:not(:last-child) {
+    margin-right: 0rem;
+    border-bottom: 1px solid #ffffff2b;
+  }
+  .nav-item:hover {
+    background-color: #da41a9;
+  }
+  .nav-link {
+    color: #ffffff !important;
+  }
+  .nav-link::after {
+    height: 0%;
+  }
+  /* ------faq-area------ */
+  .accordion-button::after {
+    left: -30%;
+  }
+  /* ----- our-work-area-start------ */
+  .portfolio-card {
+    padding: 2rem 2rem 8rem 2rem;
+  }
+  .portfolio-btn {
+    font-size: 1.4rem;
+
+    padding: 1rem 1.1rem;
+  }
+  .portfolio-btn-icon {
+    width: 1.6rem;
+  }
+  .portfolio-card:hover .portfolio-btn {
+    transform: translate(2rem, 9rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-area {
+    height: 55vh;
+    padding: 4rem 0;
+  }
+  .hero-content-heading {
+    font-size: 3.5rem;
+  }
+  .hero-content-paragraph {
+    font-size: 1.6rem;
+    width: 90%;
+  }
+  /* ----- about-us-area-start------ */
+  .about-us {
+    padding: 9rem 0 4rem 0;
+  }
+  .about-us-content h4 {
+    font-size: 1.8rem;
+  }
+  .about-us-content h2 {
+    font-size: 3.5rem;
+  }
+  .about-us-content p {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .about-us-content {
+    padding-bottom: 8rem;
+  }
+  .about-img-four {
+    width: 4rem;
+  }
+  .about-responsive-pc {
+    display: none;
+  }
+  .about-responsive-m {
+    display: block;
+  }
+  .about-us-content {
+    padding-left: 0rem;
+  }
+  .about-image-two-skew {
+    transform: translateY(60px);
+  }
+  /* ----- work-us-area-start------ */
+  .work {
+    padding: 3rem 0rem 6rem 0;
+  }
+  .process-dot {
+    top: 0%;
+    left: 0%;
+  }
+
+  /* ----- why-choose-us-area-start------ */
+  .why-choose-us {
+    background: none;
+    padding: 10rem 0 2rem 0;
+  }
+  .image {
+    height: 100%;
+    background-image: url(../img/choose-bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .icon {
+    width: 22rem;
+  }
+  .icon-box-content-heading {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .icon-box-content-paragraph {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .common-heading {
+    font-size: 1.8rem;
+  }
+  .common-sub-heading {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  /* ----- our-work-us-area-start------ */
+  .our-work {
+    padding: 6rem 0 6rem 0;
+  }
+  .work-circle-one-img {
+    width: 18rem;
+    top: 14.5rem;
+    right: -1rem;
+  }
+  .portfolio-second-row {
+    padding-top: 1rem;
+  }
+  .portfolio-card {
+    margin-bottom: 5rem;
+  }
+  .work-circle-two-img {
+    bottom: 0rem;
+  }
+  .work-circle-one-img {
+    width: 16rem;
+    top: 14.5rem;
+    right: -1rem;
+  }
+  .work-heading-paragraph {
+    width: 75%;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  /* ------testimonial-area------ */
+  .testimonial-area {
+    padding: 10rem 0;
+    background: #fdfcff;
+    margin: 8rem 0;
+  }
+  .testimonial-sub-head {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 75%;
+  }
+  .testimonial-paragraph {
+    font-size: 1.6rem;
+  }
+  .testimonial-bg-image {
+    left: -5%;
+  }
+  .round-bg {
+    right: 9%;
+    top: 2%;
+  }
+  /* ------faq-area------ */
+  .accordion-button::after {
+    left: -74px;
+  }
+  .accordion-button {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  /* ------contact-area-start------ */
+  .contact-round-two {
+    right: -8px;
+  }
+  .contact-form {
+    width: 95%;
+  }
+  .form-content h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  /* ------sub-footer-start------ */
+  .footer-nav-item {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  .social-icon-list:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .social-icon-list {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* ------hero-area------ */
+  .hero-area {
+    height: 100vh;
+    padding: 4rem 0;
+  }
+  .why-choose-us-content .common-heading,
+  .common-sub-heading,
+  .divider-wrapper,
+  .why-choose-paragraph {
+    text-align: center;
+  }
+  /* ------faq-area------ */
+  /* .accordion-button::after {
+    left: -18%;
+  } */
+  .accordion-button {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  /* ----- our-work-area-start------ */
+  .portfolio-card:hover .portfolio-btn {
+    transform: translate(7rem, 35rem);
+  }
+  .portfolio-card {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+  /* ------why-choose-us------ */
+  .image {
+    height: 80vh;
+    background-image: url(../img/choose-bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  /* ------contact-area------ */
+  input,
+  textarea {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  /*------- footer------ */
+  .foter-social-icon ul {
+    text-align: left;
+  }
+  .icon-area img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-area {
+    height: auto;
+  }
+  .hero-img img {
+    text-align: center;
+  }
+  .hero-content-heading {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .hero-content-paragraph {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-btn {
+    margin: auto;
+  }
+  .hero-content {
+    padding-bottom: 3rem;
+  }
+  .hero-btn-wrapper {
+    text-align: center;
+  }
+  /* ----- about-us-area-start------ */
+  .about-us-content h4,
+  .about-us-content h2,
+  .divider-wrapper,
+  .about-us-content p,
+  .about-us-btn-wrapper {
+    text-align: center;
+  }
+  .about-us-content h4 {
+    font-size: 1.6rem;
+  }
+  .about-us-content h2 {
+    font-size: 2.6rem;
+  }
+  .about-us-content p {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+  .about-btn {
+    font-size: 1.4rem;
+  }
+  .about-responsive-m {
+    padding: 6rem 1rem 0rem 1rem;
+  }
+  /* ----- work-us-area-start------ */
+  .work-detail-card {
+    margin: 0 0 6rem 0;
+    height: 37.5rem;
+  }
+  .work-detail-card p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .work-detail-card h3 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .work {
+    padding: 6rem 2rem 4rem 2rem;
+  }
+  /* ------Why choose us-area-start------ */
+
+  .common-sub-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .common-heading {
+    font-size: 1.6rem;
+  }
+  .why-choose-us-content p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .why-choose-paragraph {
+    padding: 0 1.5rem;
+  }
+  /* ----- our-work-area-start------ */
+  .portfolio-card:hover .portfolio-btn {
+    transform: translate(7rem, 26rem);
+  }
+  .portfolio-heading-content::after {
+    bottom: 1rem;
+  }
+  .work-heading-paragraph {
+    width: 95%;
+  }
+  .our-work {
+    padding: 0rem 1rem 6rem 1rem;
+  }
+  .work-circle-one-img,
+  .work-circle-two-img {
+    display: none;
+  }
+  /* ------testimonial-area------ */
+  .testimonial-area {
+    margin: 0rem 0;
+  }
+  .testimonial-paragraph {
+    font-size: 1.4rem;
+  }
+  .round-bg {
+    width: 10%;
+    right: 14%;
+    top: 2%;
+  }
+  .testimonial-sub-head {
+    width: 95%;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .testimonial-header {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  /* ------faq-area------ */
+  .faq-area {
+    padding: 3rem 1rem 6rem 1rem;
+  }
+  .accordion-button::after {
+    left: -76px;
+  }
+  .faq-content-wrapper {
+    padding-top: 8rem;
+  }
+  .faq-heading {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+  }
+  .faq-paragraph {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  /* ------contact-area------ */
+
+  .form-content h2 {
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    text-align: center;
+    width: 100%;
+  }
+  .contact-area {
+    padding: 10rem 1.5rem;
+  }
+  .contact-round-one {
+    left: 16px;
+    bottom: -45px;
+  }
+  .form-content {
+    padding-bottom: 10rem;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  /* ------sub-footer-start------ */
+  .sub-footer-wrapper {
+    display: block;
+    text-align: center;
+  }
+  .footer-menu {
+    padding: 1rem 0rem;
+  }
+  /* ------main-footer------ */
+  .icon-area img {
+    width: 50%;
+  }
+
+  .about {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .about p {
+    width: 100%;
+  }
+  .footer-Quick-Links-wrapper,
+  .footer-icon-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .main-footer {
+    padding: 2rem 2rem 5rem 2rem;
+  }
+  .foter-social-icon ul {
+    text-align: center;
+  }
+  .footer-heading,
+  .Quick-Links-item {
+    text-align: center;
+  }
+  .Contact-us,
+  .Quick-Links {
+    padding-bottom: 3rem;
+  }
+  .icon-area {
+    text-align: center;
+  }
+  .copyright {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px) {
+  .contact-bg-img-one {
+    position: absolute;
+    width: 15rem;
+    z-index: 5;
+    bottom: -11%;
+    left: 0%;
+  }
+  .contact-bg-img-two {
+    position: absolute;
+    width: 5rem;
+    left: 42%;
+    top: -3%;
+  }
+  .contact-bg-img-three {
+    position: absolute;
+    width: 15rem;
+    right: 0%;
+    top: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .map-subheading {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #333333;
+  }
+  .common-about-content {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    width: 90%;
+  }
+  .contact-box-area .common,
+  .google-map-location .common {
+    padding-bottom: 10rem;
+  }
+}

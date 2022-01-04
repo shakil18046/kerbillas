@@ -1,0 +1,149 @@
+/* ------image-area------ */
+.mockup {
+  width: 70rem;
+  transform: translateY(-12rem);
+}
+.image-area {
+  text-align: center;
+}
+.Requirement-item {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  position: relative;
+  padding-left: 2.5rem;
+}
+.Requirement-item:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+.Requirement-item:after {
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../img/list-dot.svg) no-repeat;
+  content: "";
+}
+.Requirement-item-wrapper {
+  padding-top: 3rem;
+}
+.requirments-heading,
+.case-studies-heading {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #333333;
+  padding-top: 5rem;
+}
+.case-studies {
+  z-index: 10;
+  position: inherit;
+}
+.case-studies,
+.our-approach {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 0.1rem solid #ed3ab2;
+  padding: 50px 90px 90px 90px;
+}
+
+.bg-case-studies-img {
+  position: absolute;
+  width: 30rem;
+  z-index: 5;
+  top: -7%;
+  left: -7%;
+}
+.case-studies-wrapper {
+  position: relative;
+}
+.approach-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  color: #333333;
+}
+.sub-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.sub-heading:not(:last-child) {
+  padding-bottom: 2rem;
+}
+.Our-approach-area {
+  padding: 10rem 0;
+}
+.approach-paragraph,
+.case-studies-paragraph {
+  font-size: 1.8rem;
+}
+/* ------device-image-mockup------ */
+.device-image-mockup {
+}
+.mockup-btn {
+  background: #ed3ab2;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.6rem;
+}
+.mockup-btn-wrapper {
+  text-align: center;
+}
+.prev-btn-icon {
+  width: 1.6rem;
+  transform: translateY(0px);
+}
+.prev-btn {
+  border-radius: 3px;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  color: #333333;
+  border-radius: 3px;
+  border: 0.1rem solid #ed3ab2;
+}
+.next-prev-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+.actual-site-image-area {
+  padding: 3rem 0 10rem 0;
+}
+.bg-case-studies-img-two {
+  width: 15rem;
+  position: absolute;
+  z-index: 5;
+  bottom: 15%;
+  right: -5%;
+}
+.our-approach-wrapper {
+  position: relative;
+}
+.our-approach {
+  z-index: 10;
+  position: inherit;
+}
+.approach-bg-image-one {
+  position: absolute;
+  width: 15rem;
+  z-index: 5;
+  bottom: 30%;
+  left: -4%;
+}
+.approach-bg-image-two {
+  width: 5rem;
+  position: absolute;
+  top: -2%;
+  right: 14%;
+  z-index: 20;
+}
